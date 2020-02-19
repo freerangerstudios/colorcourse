@@ -1,12 +1,12 @@
 # Color Course  
 A 2D platformer with a colorful twist
 
-### Built with
+### Information
 * Language: Java
 * Framework: LibGDX
-
-Supported platforms: Windows (.jar, .exe), Mac (.jar), Linux (.jar)
+* IDE Used: Intellij IDEA
+* Supported platforms: Windows (.jar, .exe), Mac (.jar), Linux (.jar)
 
 ### Links
-[Download page (itch.io)](https://freeranger.itch.io/colorcourse)
-[Download page (gamejolt.com)](https://gamejolt.com/games/colorcourse/467153)
+* [Primary download page (itch.io)](https://freeranger.itch.io/colorcourse)
+* [Secondary download page (gamejolt.com)](https://gamejolt.com/games/colorcourse/467153)
