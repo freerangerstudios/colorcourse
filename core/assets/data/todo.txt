@@ -1,0 +1,7 @@
+1.Rita fiender: boss & ranged
+2. Ljudeffekter för boss & några fiender
+3. Rita dödsanimationer
+    - Nyckelblock & Nyckar
+    - Alla fiender + bossen
+    - Hjärtan, powerups m.m.
+4. Konfetti!

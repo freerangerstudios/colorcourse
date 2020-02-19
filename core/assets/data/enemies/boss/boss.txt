@@ -1,0 +1,16 @@
+idle-animation [VÄNSTER & HÖGER] (totalt 8)
+ - IMMUN (ska också ha stage 1-4)
+ - STAGE 1
+ - STAGE 2
+ - STAGE 3
+ - STAGE 4
+rörelse-animation [VÄNSTER & HÖGER] (totalt 8)
+ - IMMUN (ska också ha stage 1-4)
+ - STAGE 1
+ - STAGE 2
+ - STAGE 3
+ - STAGE 4
+
+döds-animation (totalt 1)
+
+TOTALT: 17 (8 + 8 + 1)

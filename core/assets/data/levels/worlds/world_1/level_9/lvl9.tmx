@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="250" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="111" nextobjectid="786">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32" tilecount="24" columns="6">
+  <image source="../../../tiles.png" width="192" height="128"/>
+ </tileset>
+ <layer id="57" name="red" width="250" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt00EKwDAIAEHz/0/3A8UktEZaZiCXXBRhIwAAAAAAAAAAAAAAAAAAgKdG9wJAOZ3D/+kc9oy472b3/6Tu+fA1OqfKmDzO0TlVdJ6b3efNO+mcKjrP6TzXPZ81Os/pPNc9nzU6z10onwB0
+  </data>
+ </layer>
+ <layer id="47" name="orange" width="250" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt2kEKgCAURVFx/4tuGuVAnejTc6BJEIT+S0GVAgAAAAAA8FdfR+tcbV0ERNE5AAAAAADAOr7HALCr778DnldwHp0zw7xk0TkzUualNd8p9w6rpbSic5inFTifzunhHSqbfRtz6zrpPJt9G3PrOul8Hw+dFwCr
+  </data>
+ </layer>
+ <layer id="48" name="yellow" width="250" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt2TEKwCAQRUHB+985RZoQhGgQ3ZUZSC/Lf1VKAQAAAAAAAAAARtXHB5xJ53A+nc9Ti3sSk13Oo3Oissu13Jsd7G4t957LLfvYHZnZbh+dk5nt9tE5WbR2+rVd277pnCx0/p/OGbFzKzr/L1rnrXesetv7/3eUm0Si85yibVrnsek8p2ib3tk533Sek84ZofM1LqQdAZY=
+  </data>
+ </layer>
+ <layer id="49" name="green" width="250" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEKgDAQRMEU9//fbCtWAU/cHDOQRhtZfLrWPPXyPpBP5zCfzmE+ncN8Oof5dA4AAAAAAADAH+p2dq4D59E50KU2DnC2tM59X+AbKY0/nwV2/kMp7246W5FK531sRSqd97EVqXTex1ak0nkfW5FK531sRarkzi/MbgMp
+  </data>
+ </layer>
+ <layer id="50" name="blue" width="250" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt18sJACAMREEv9t+yDXgQET/rDKSDPEJKAQAAAAAAAAAAAAAAAE6pnQGy6BwAxrmZvMSezvm5895vsGqAO+gc8ukc8ukc8ukc8ukc8umcXRqv8wOK
+  </data>
+ </layer>
+ <layer id="51" name="pink" width="250" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt2yEKwDAQRNGq3v/IpbYiphD2h/cgfsSMy14XAAAAAADAf/fnAeexcwAAAAAAAAAAAABOV/onW8oKk5S2U8oKk5S2U8q64t6I3Up9K2VdsXN2K/WtlPXlVpgpKh0sbqaYeaoH958AwQ==
+  </data>
+ </layer>
+ <layer id="53" name="blockers" width="250" height="24" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENADAIAzAO4P97+wIShQV7ZiJDEgEAAAAAAAAAAAAAAAAAd+TnOwCArundYdfs6v5bXgBcV+lCfQkAAAAATHtHNQBh
+  </data>
+ </layer>
+ <layer id="54" name="flag" width="250" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt07ENACEQA0EyePovGJq4P2TNSM6d7BgAAAAAAAAAAPCf3X0AKDXvVvcJoNzXfQAop3PIp3PIp3PIp3PIp3PIp3MAAAAAAAB41wGjLQBZ
+  </data>
+ </layer>
+ <layer id="59" name="normalblocks" width="250" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T+3sARQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADddwAAB
+  </data>
+ </layer>
+ <layer id="107" name="deathblocks" width="250" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztziEBAAAIA7B7+vclwh2YLcESAAAAAAAAAAAAAAAAAIAb8x0AAAAAAAAAAAAoFvPHAAw=
+  </data>
+ </layer>
+ <layer id="108" name="spikes" width="250" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENACAIBEA2YP9tLaxtFE3Uu4qE+uEjAAAAAABq5eQOAABepAMDAHR6EQCs8UuBn7h5cAdZBQAAAAA4JwczAAAAsE8DxjAAiA==
+  </data>
+ </layer>
+ <objectgroup id="88" name="heart_powerup"/>
+ <objectgroup id="89" name="speed_powerup">
+  <properties>
+   <property name="direction" type="int" value="0"/>
+   <property name="maxPos" type="int" value="0"/>
+   <property name="minPos" type="int" value="2976"/>
+   <property name="timerLength" type="int" value="65"/>
+   <property name="velocity" type="float" value="1.5"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="90" name="jump_powerup"/>
+ <objectgroup id="91" name="temp_health_powerup"/>
+ <objectgroup id="77" name="movingblock_red"/>
+ <objectgroup id="79" name="movingblock_orange">
+  <object id="721" x="4256" y="480" width="32" height="32">
+   <properties>
+    <property name="direction" type="int" value="0"/>
+    <property name="maxPos" type="int" value="4640"/>
+    <property name="minPos" type="int" value="4064"/>
+    <property name="timerLength" type="int" value="75"/>
+    <property name="velocity" type="float" value="1.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="80" name="movingblock_yellow"/>
+ <objectgroup id="81" name="movingblock_green"/>
+ <objectgroup id="85" name="movingblock_blue"/>
+ <objectgroup id="86" name="movingblock_pink"/>
+ <objectgroup id="87" name="moving_spikeball"/>
+ <objectgroup color="#00ff08" id="9" name="evile">
+  <object id="655" x="1568" y="448" width="32" height="32"/>
+  <object id="656" x="1472" y="448" width="32" height="32"/>
+  <object id="671" x="1400" y="448" width="32" height="32"/>
+  <object id="676" x="3488" y="512" width="32" height="32"/>
+  <object id="677" x="3296" y="512" width="32" height="32"/>
+  <object id="682" x="5760" y="576" width="32" height="32"/>
+  <object id="683" x="5856" y="576" width="32" height="32"/>
+  <object id="684" x="6816" y="512" width="32" height="32"/>
+  <object id="685" x="6912" y="512" width="32" height="32"/>
+  <object id="686" x="7072" y="512" width="32" height="32"/>
+  <object id="687" x="7168" y="512" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="66" name="fallingrock"/>
+ <objectgroup id="67" name="doomfist"/>
+ <objectgroup id="68" name="thepipeball"/>
+ <objectgroup id="70" name="thepipeunder"/>
+ <objectgroup id="71" name="thepipeover"/>
+ <objectgroup id="72" name="reaper"/>
+ <objectgroup id="61" name="plant_of_doom"/>
+ <objectgroup id="63" name="ghost"/>
+ <objectgroup id="62" name="the_shell"/>
+ <objectgroup id="58" name="dark_evile">
+  <object id="674" x="3616" y="512" width="32" height="32"/>
+  <object id="785" x="3168" y="512" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="56" name="ranged_enemy"/>
+ <objectgroup id="10" name="coins">
+  <object id="723" x="176" y="576" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="724" x="448" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="725" x="1056" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="726" x="1088" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="727" x="1248" y="512" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="728" x="1536" y="384" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="729" x="1440" y="384" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="730" x="1792" y="64" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="731" x="1824" y="64" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="732" x="1792" y="96" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="733" x="1824" y="96" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="734" x="1792" y="128" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="735" x="1824" y="128" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="737" x="2016" y="320" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="739" x="2336" y="352" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="740" x="2560" y="448" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="741" x="2848" y="544" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="742" x="2816" y="544" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="743" x="2880" y="544" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="744" x="3072" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="745" x="3200" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="746" x="3360" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="749" x="3392" y="256" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="750" x="3392" y="288" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="770" x="6976" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="771" x="6784" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="773" x="6544" y="448" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="774" x="6112" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="775" x="5888" y="544" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="776" x="5748" y="544" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="777" x="5536" y="576" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="779" x="5376" y="640" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="780" x="4896" y="576" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="781" x="4704" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="782" x="4000" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="783" x="3872" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="784" x="5568" y="576" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="emeralds">
+  <object id="748" x="3744" y="480" width="32" height="32"/>
+  <object id="753" x="3232" y="256" width="32" height="32"/>
+  <object id="754" x="3616" y="352" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0004" id="12" name="red_color_buckets">
+  <object id="664" x="864" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="666" x="1152" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="714" x="5632" y="544" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="13" name="red_jumppads"/>
+ <objectgroup color="#ff0000" id="14" name="red_keys"/>
+ <objectgroup color="#ff0000" id="16" name="red_keyblocks"/>
+ <objectgroup color="#ffaa00" id="17" name="orange_color_buckets">
+  <object id="660" x="320" y="576" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="668" x="1680" y="384" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="711" x="3744" y="288" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="718" x="6192" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ffaa00" id="18" name="orange_jumppads">
+  <object id="658" x="1824" y="544" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#ffaa00" id="19" name="orange_keys"/>
+ <objectgroup color="#ffaa00" id="20" name="orange_keyblocks"/>
+ <objectgroup color="#ffff00" id="21" name="yellow_color_buckets">
+  <object id="662" x="576" y="320" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="673" x="3520" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="707" x="2640" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="712" x="5024" y="576" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="716" x="5984" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="22" name="yellow_jumppads"/>
+ <objectgroup id="23" name="yellow_keys"/>
+ <objectgroup id="24" name="yellow_keyblocks"/>
+ <objectgroup color="#22ff00" id="25" name="green_color_buckets">
+  <object id="661" x="480" y="448" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="663" x="768" y="320" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="667" x="1312" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="705" x="2400" y="288" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="720" x="6616" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="26" name="green_jumppads"/>
+ <objectgroup id="27" name="green_keys"/>
+ <objectgroup id="28" name="green_keyblocks"/>
+ <objectgroup color="#0084ff" id="29" name="blue_color_buckets">
+  <object id="665" x="960" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="688" x="2128" y="64" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="709" x="2976" y="512" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="719" x="6368" y="288" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="30" name="blue_jumppads"/>
+ <objectgroup id="31" name="blue_keys"/>
+ <objectgroup id="32" name="blue_keyblocks"/>
+ <objectgroup color="#ff00ea" id="33" name="pink_color_buckets">
+  <object id="670" x="1952" y="416" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="713" x="5216" y="480" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="34" name="pink_jumppads">
+  <object id="657" x="1920" y="544" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="35" name="pink_keys"/>
+ <objectgroup id="36" name="pink_keyblocks"/>
+ <objectgroup id="37" name="checkpoints">
+  <object id="672" x="1072" y="480" width="32" height="32">
+   <properties>
+    <property name="Color" type="int" value="5"/>
+   </properties>
+  </object>
+  <object id="680" x="2848" y="608" width="32" height="32">
+   <properties>
+    <property name="Color" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="722" x="4896" y="640" width="32" height="32">
+   <properties>
+    <property name="Color" type="int" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="109" name="doors"/>
+ <objectgroup id="110" name="boss"/>
+</map>

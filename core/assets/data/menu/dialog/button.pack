@@ -1,0 +1,143 @@
+
+button.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+red_btn
+  rotate: false
+  xy: 0, 0
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+yellow_btn
+  rotate: false
+  xy: 190, 0
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+green_btn
+  rotate: false
+  xy: 380, 0
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+
+button.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+blue_wide_up
+  rotate: false
+  xy: 0, 49
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+green_wide_up
+  rotate: false
+  xy: 0, 0
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+red_wide_up
+  rotate: false
+  xy: 190, 49
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+yellow_wide_up
+  rotate: false
+  xy: 190, 0
+  size: 190, 49
+  orig: 190, 49
+  offset: 0, 0
+  index: -1
+blue_wide_down
+  rotate: false
+  xy: 380, 53
+  size: 190, 45
+  orig: 190, 45
+  offset: 0, 0
+  index: -1
+green_wide_down
+  rotate: false
+  xy: 380, 8
+  size: 190, 45
+  orig: 190, 45
+  offset: 0, 0
+  index: -1
+red_wide_down
+  rotate: false
+  xy: 570, 53
+  size: 190, 45
+  orig: 190, 45
+  offset: 0, 0
+  index: -1
+yellow_wide_down
+  rotate: false
+  xy: 570, 8
+  size: 190, 45
+  orig: 190, 45
+  offset: 0, 0
+  index: -1
+blue_rect_up
+  rotate: false
+  xy: 760, 49
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+green_rect_up
+  rotate: false
+  xy: 809, 49
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+red_rect_up
+  rotate: false
+  xy: 858, 49
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+yellow_rect_up
+  rotate: false
+  xy: 907, 49
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+blue_rect_down
+  rotate: false
+  xy: 956, 53
+  size: 49, 45
+  orig: 49, 45
+  offset: 0, 0
+  index: -1
+green_rect_down
+  rotate: false
+  xy: 760, 4
+  size: 49, 45
+  orig: 49, 45
+  offset: 0, 0
+  index: -1
+red_rect_down
+  rotate: false
+  xy: 809, 4
+  size: 49, 45
+  orig: 49, 45
+  offset: 0, 0
+  index: -1
+yellow_rect_down
+  rotate: false
+  xy: 858, 4
+  size: 49, 45
+  orig: 49, 45
+  offset: 0, 0
+  index: -1

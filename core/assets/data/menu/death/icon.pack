@@ -1,0 +1,89 @@
+
+icon.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrowLeft
+  rotate: false
+  xy: 0, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+arrowRight
+  rotate: false
+  xy: 50, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+cart
+  rotate: false
+  xy: 100, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+door
+  rotate: false
+  xy: 150, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+gear
+  rotate: false
+  xy: 200, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+locked
+  rotate: false
+  xy: 250, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+musicOff
+  rotate: false
+  xy: 300, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+musicOn
+  rotate: false
+  xy: 350, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+open
+  rotate: false
+  xy: 400, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+return
+  rotate: false
+  xy: 450, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+trashcan
+  rotate: false
+  xy: 500, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+unlocked
+  rotate: false
+  xy: 550, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
