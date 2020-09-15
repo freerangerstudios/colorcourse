@@ -1,12 +1,15 @@
 # Color Course  
-A 2D platformer with a colorful twist
+Color Course is a challenging 2D platformer with a twist: your character can only touch blocks in the same color as himself! Make your way through the world of colors, get past all obstacles such as ghosts, death blocks, or even moving  spike balls, complete all levels and defeat the boss. Good luck!
 
-### Information
+### Technical information
 * Language: Java
 * Framework: LibGDX
-* IDE Used: Intellij IDEA
-* Supported platforms: Windows (.jar, .exe), Mac (.jar), Linux (.jar)
+* Tools and software used: Intellij IDEA, Photoshop, Tiled, Git, Aseprite
+* Supported platforms: Windows, MacOS, Linux
 
-### Links
-* [Primary download page (itch.io)](https://freeranger.itch.io/colorcourse)
-* [Secondary download page (gamejolt.com)](https://gamejolt.com/games/colorcourse/467153)
+### Download
+* [Download on itch.io](https://freeranger.itch.io/colorcourse)
+* [Download on gamejolt.com](https://gamejolt.com/games/colorcourse/467153)
+
+### Project status
+I have finished this game, which means that it will not be updated. However, I am planning to make a remastered version of the game in the future.
